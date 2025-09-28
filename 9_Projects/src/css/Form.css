@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(to right, #fff7c8 0%, #fa709a 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.card {
+  background: #f3fffe;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 50rem;
+  min-height: 30rem;
+  box-shadow: 0.5px 0.5px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-image {
+  background: url("https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80");
+  background-position: center;
+  background-size: cover;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+}
+
+input {
+  padding: 10px;
+  margin: 8px 0;
+  width: 20rem;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  font-size: 1rem;
+  color: #000;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #fa709a;
+}
+
+.error {
+  font-size: 0.85rem;
+  color: red;
+  margin-bottom: 5px;
+  text-align: left;
+  width: 20rem;
+  min-height: 18px; 
+}
+
+
+.submit-btn {
+  width: 20rem;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: rgb(255, 90, 123);
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+  align-self: center;
+}
+
+.submit-btn:hover {
+  background: rgb(230, 50, 95);
+}
