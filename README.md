@@ -59,7 +59,7 @@ This course will guide you from basics to advanced topics with hands-on examples
    ```
 4. Run the app:
    ```bash
-   npm start
+   npm run dev
    ```
 
 ---
